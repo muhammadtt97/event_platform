@@ -19,7 +19,7 @@
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "@stripe/stripe-js": "^3.0.6",
-    "@uploadthing/react": "^6.2.4",
+    "@uploadthing/react": "^6.3.2",
     "axios": "^1.6.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -38,7 +38,7 @@
     "svix": "^1.20.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
-    "uploadthing": "^6.4.1",
+    "uploadthing": "^6.5.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
