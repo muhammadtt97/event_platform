@@ -113,7 +113,7 @@ export type CheckoutOrderParams = {
 }
 
 export type CreateOrderParams = {
-  stripeId: string
+  stripeId?: string
   eventId: string
   buyerId: string
   totalAmount: string
@@ -146,4 +146,11 @@ export type RemoveUrlQueryParams = {
 export type SearchParamProps = {
   params: { id: string }
   searchParams: { [key: string]: string | string[] | undefined }
+}
+
+// Define the PaystackOrderParams type
+export type PaystackOrderParams = {
+  reference: string;
+  email: string;
+  amount: number;
 }
